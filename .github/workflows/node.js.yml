@@ -11,6 +11,9 @@ on:
 
 jobs:
   build:
+    runs:
+      using: 'node20'
+      main: 'main.js'
 
     runs-on: ubuntu-latest
     steps: 
